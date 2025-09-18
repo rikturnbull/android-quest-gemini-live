@@ -44,6 +44,14 @@ You can also configure the `gemini_url` and `gemini_model`.
 - Real-time video streaming to Gemini Live API
 - Audio input and output processing
 
+## Demo
+
+Demo available: https://youtu.be/EO4uojTqLfo?si=Chdhc1PiGCLg78ug
+
+This shows Gemini playing Top Trumps! The initial system prompt explains the rules and that's it!
+
+![screenshot.png](img.png)
+
 ## References
 
 Gemin Live API: https://ai.google.dev/gemini-api/docs/live
