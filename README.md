@@ -50,7 +50,7 @@ Demo available: https://youtu.be/EO4uojTqLfo?si=Chdhc1PiGCLg78ug
 
 This shows Gemini playing Top Trumps! The initial system prompt explains the rules and that's it!
 
-![screenshot.png](img.png)
+![Screenshot](screenshot.png)
 
 ## References
 
