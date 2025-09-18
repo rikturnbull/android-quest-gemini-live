@@ -1,0 +1,43 @@
+entities:
+  com.meta.models.Scene:
+    - components:
+        com.meta.components.Name:
+          {}
+        com.meta.components.Scene:
+          nodes:
+            - ref:CameraControlsPanel
+      tag: Scene
+  com.meta.models.SceneNode:
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: CameraControlsPanel
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.format: Euler
+          scale:
+            - 0.0399999991
+            - 0.0399999991
+            - 1
+          componentVersion: 1
+        com.meta.components.Visibility:
+          {}
+        uk.co.controlz.live.WristAttached:
+          position:
+            - 0.0799999982
+            - -0.0399999991
+            - -0.0199999996
+          faceUser: true
+          rotation:
+            - -30
+            - -55
+            - -90
+        com.meta.spatial.toolkit.Panel:
+          panel: "@layout/ui_camera_controls_view"
+        com.meta.spatial.toolkit.PanelDimensions:
+          {}
+      tag: CameraControlsPanel
+metadata:
+  version: 1.34

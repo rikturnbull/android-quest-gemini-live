@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="prompt">
+        We will play top trumps. I will show you your cards. Read the statistics on each one.
+        Note the statistics for age, goals, trophies, height and caps but do not read them out.
+        When I tell you to pick a card, pick one card and one statistic only.
+        After a card is picked it cannot be picked again.
+        I will then show my card and if my statistic is higher I win, if it is lower you win.
+    </string>
+    <string name="camera_status_off">Paused</string>
+    <string name="camera_status_on">Live</string>
+    <string name="camera_controls_button_description">Play/pause button</string>
+    <string name="gemini_url">wss://generativelanguage.googleapis.com/ws/google.ai.generativelanguage.v1beta.GenerativeService.BidiGenerateContent</string>
+    <string name="gemini_model">gemini-2.5-flash-live-preview</string>
+    <!--<string name="gemini_model">live-2.0-flash-exp</string>-->
+    <string name="dot">Dot</string>
+</resources>
