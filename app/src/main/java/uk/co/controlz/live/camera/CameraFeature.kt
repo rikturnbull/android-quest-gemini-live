@@ -47,7 +47,7 @@ class CameraFeature(
     private val enableGeminiLive: Boolean = true,
     private val geminiApiKey: String? = null,
     private val onGeminiResponse: ((String) -> Unit)? = null,
-) : SpatialFeature, /*IObjectsDetectedListener,*/ CameraController.ImageAvailableListener {
+) : SpatialFeature, CameraController.ImageAvailableListener {
     companion object {
         private const val TAG = "CameraFeature"
     }
@@ -266,7 +266,6 @@ class CameraFeature(
     }
 
     private fun onCameraPropertiesChanged(properties: CameraProperties) {
-        // start immediately since we aren't spawning an overlay panel
         if (!spawnCameraViewPanel) {
             scan()
             return

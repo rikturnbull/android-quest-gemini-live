@@ -11,7 +11,7 @@
     <string name="camera_status_on">Live</string>
     <string name="camera_controls_button_description">Play/pause button</string>
     <string name="gemini_url">wss://generativelanguage.googleapis.com/ws/google.ai.generativelanguage.v1beta.GenerativeService.BidiGenerateContent</string>
-    <string name="gemini_model">gemini-2.5-flash-live-preview</string>
-    <!--<string name="gemini_model">live-2.0-flash-exp</string>-->
+    <string name="gemini_model">models/gemini-2.5-flash-live-preview</string>
+    <!--<string name="gemini_model">models/live-2.0-flash-exp</string>-->
     <string name="dot">Dot</string>
 </resources>

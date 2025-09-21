@@ -57,7 +57,7 @@ class MainActivity : ActivityCompat.OnRequestPermissionsResultCallback, AppSyste
     override fun registerFeatures(): List<SpatialFeature> {
         cameraFeature = CameraFeature(
             activity = this,
-            onStatusChanged = ::onObjectDetectionFeatureStatusChanged,
+            onStatusChanged = ::onCameraFeatureStatusChanged,
             spawnCameraViewPanel = true,
             enableGeminiLive = true,
             geminiApiKey = null,
@@ -156,7 +156,7 @@ class MainActivity : ActivityCompat.OnRequestPermissionsResultCallback, AppSyste
         cameraFeature.pause()
     }
 
-    private fun onObjectDetectionFeatureStatusChanged(newStatus: CameraStatus) {
+    private fun onCameraFeatureStatusChanged(newStatus: CameraStatus) {
         cameraControlsBtn?.setBackgroundResource(
             when (newStatus) {
                 CameraStatus.PAUSED -> com.meta.spatial.uiset.R.drawable.ic_play_circle_24

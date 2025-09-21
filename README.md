@@ -1,6 +1,6 @@
 # Gemini Live on Quest
 
-An Android application that integrates with Google's Gemini Live API to provide real-time AI interactions on Meta Quest devices.
+An Android application that integrates with Google's Gemini Live API (free tier) to provide real-time AI interactions on Meta Quest devices.
 
 ## Requirements
 
